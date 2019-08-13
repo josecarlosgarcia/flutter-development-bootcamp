@@ -10,9 +10,10 @@ void main() {
           title: Text('Knotion'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Image(
-          image: NetworkImage(
-              'https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png'),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
